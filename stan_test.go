@@ -31,10 +31,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hedwi/nats"
+	"github.com/hedwi/stan/pb"
 	natsd "github.com/nats-io/nats-server/v2/test"
 	"github.com/nats-io/nats-streaming-server/server"
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/stan.go/pb"
 )
 
 func RunServer(ID string) *server.StanServer {

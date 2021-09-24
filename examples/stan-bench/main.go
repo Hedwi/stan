@@ -24,10 +24,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/bench"
+	"github.com/hedwi/nats"
+	"github.com/hedwi/nats/bench"
 
-	"github.com/nats-io/stan.go"
+	"github.com/hedwi/stan"
 )
 
 // Some sane defaults

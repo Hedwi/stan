@@ -21,9 +21,9 @@ import (
 	"os/signal"
 	"time"
 
-	nats "github.com/nats-io/nats.go"
-	"github.com/nats-io/stan.go"
-	"github.com/nats-io/stan.go/pb"
+	nats "github.com/hedwi/nats"
+	"github.com/hedwi/stan"
+	"github.com/hedwi/stan/pb"
 )
 
 var usageStr = `

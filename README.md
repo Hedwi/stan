@@ -5,7 +5,7 @@ NATS Streaming is an extremely performant, lightweight reliable streaming platfo
 [![License Apache 2](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Build Status](https://travis-ci.com/nats-io/stan.go.svg?branch=main)](https://travis-ci.com/github/nats-io/stan.go)
 [![Coverage Status](https://coveralls.io/repos/nats-io/stan.go/badge.svg?branch=main)](https://coveralls.io/r/nats-io/stan.go?branch=main)
-[![GoDoc](https://godoc.org/github.com/nats-io/stan.go?status.svg)](http://godoc.org/github.com/nats-io/stan.go)
+[![GoDoc](https://godoc.org/github.com/hedwi/stan?status.svg)](http://godoc.org/github.com/hedwi/stan)
 
 NATS Streaming provides the following high-level feature set:
 - Log based persistence
@@ -16,21 +16,21 @@ NATS Streaming provides the following high-level feature set:
 
 ## Notes
 
-- Please raise questions/issues via the [Issue Tracker](https://github.com/nats-io/stan.go/issues).
+- Please raise questions/issues via the [Issue Tracker](https://github.com/hedwi/stan/issues).
 
 ## Installation
 
 ```bash
 # Go client
-go get github.com/nats-io/stan.go/
+go get github.com/hedwi/stan/
 ```
 
 When using or transitioning to Go modules support:
 
 ```bash
 # Go client latest or explicit version
-go get github.com/nats-io/stan.go/@latest
-go get github.com/nats-io/stan.go/@v0.10.0
+go get github.com/hedwi/stan/@latest
+go get github.com/hedwi/stan/@v0.10.0
 ```
 
 ## Important things to know about reconnections.
@@ -55,7 +55,7 @@ The client-to-server PINGs are by default set to pretty aggressive values and sh
 ## Basic Usage
 
 ```go
-import stan "github.com/nats-io/stan.go"
+import stan "github.com/hedwi/stan"
 
 sc, _ := stan.Connect(clusterID, clientID)
 

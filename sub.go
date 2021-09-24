@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/stan.go/pb"
+	"github.com/hedwi/nats"
+	"github.com/hedwi/stan/pb"
 )
 
 const (
@@ -56,7 +56,7 @@ type Subscription interface {
 	// These functions have been added for expert-users that need to get details
 	// about the low level NATS Subscription used internally to receive messages
 	// for this streaming subscription. They are documented in the Go client
-	// library: https://godoc.org/github.com/nats-io/nats.go#Subscription.ClearMaxPending
+	// library: https://godoc.org/github.com/hedwi/nats#Subscription.ClearMaxPending
 
 	// ClearMaxPending resets the maximums seen so far.
 	ClearMaxPending() error

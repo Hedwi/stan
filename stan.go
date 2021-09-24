@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/hedwi/nats"
+	"github.com/hedwi/stan/pb"
 	"github.com/nats-io/nuid"
-	"github.com/nats-io/stan.go/pb"
 )
 
 // Version is the NATS Streaming Go Client version
@@ -208,7 +208,7 @@ func getDefaultOptions() Options {
 // DEPRECATED: Use getDefaultOptions() instead in the library, neither in
 // clients.
 // DefaultOptions is not safe for use by multiple clients.
-// For details see https://github.com/nats-io/nats.go/issues/308.
+// For details see https://github.com/hedwi/nats/issues/308.
 // DefaultOptions are the NATS Streaming client's default options
 var DefaultOptions = getDefaultOptions()
 

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	nats "github.com/nats-io/nats.go"
-	"github.com/nats-io/stan.go"
+	nats "github.com/hedwi/nats"
+	"github.com/hedwi/stan"
 )
 
 var usageStr = `

@@ -5,11 +5,11 @@ This file lists the dependencies used in this repository.
 | Dependency | License |
 |-|-|
 | Go | BSD 3-Clause "New" or "Revised" License |
-| github.com/nats-io/stan.go | Apache License 2.0 |
+| github.com/hedwi/stan | Apache License 2.0 |
 | github.com/gogo/protobuf v1.3.2 | Go |
 | github.com/kisielk/errcheck v1.5.0 | MIT |
 | github.com/kisielk/gotool v1.0.0 | MIT |
-| github.com/nats-io/nats.go v1.11.0 | Apache License 2.0 |
+| github.com/hedwi/nats v1.11.0 | Apache License 2.0 |
 | github.com/nats-io/nkeys v0.3.0 | Apache License 2.0 |
 | github.com/nats-io/nuid v1.0.1 | Apache License 2.0 |
 | github.com/yuin/goldmark v1.2.1 | MIT |
